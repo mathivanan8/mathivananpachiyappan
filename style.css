@@ -1,0 +1,11 @@
+h1,h2,h3 {
+	color: blue;
+	font-family: "Pridi"; 
+}
+p {
+	font-family: "Josefin Sans";
+	color: #000000;
+}
+a {
+	color: red;
+}
