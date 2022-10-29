@@ -1,75 +1,59 @@
+
 <html>
 
    <head>
              <title> Mathivanan </title>
-     <link rel="stylesheet" type="text/css" href="./style.css"/> 
-	 
-	 <link rel="preconnect" href="https://fonts.googleapis.com">
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Pridi:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
-	 
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Pridi:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css"/>
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Anton&family=Cinzel:wght@400;500;600;700;800;900&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 
-    </head>
-
-    <body>
-    <div class="bg_video_wrap">
-    <video src="video/bgvideo.mp4" loop muted autoplay>
-    </video>
-	</div>
-    <div class="overlay">
-    <section class="bgblack">
-    <img src="images/fslogo.png" alt="image" width="10%" height="4%"/>
-	<img style="float:right;width: 10%; height: 10%;margin-right: 1em;background-color: black;" src="images/mvlogo1.jpg" alt="image"/>
-           <h1> Mr. Mathivanan Pachiyappan </h1>
-<div class="navigation">
-<ul>
-<li class="list">
-<a href="#">
-<span class="icon"><ion-icon name="home-outline"></ion-icon></span>
-<span class="text">Home</span>
-</a>
-</li>
-<li class="list">
-<a href="#">
-<span class="icon"><ion-icon name="person-outline"></ion-icon></span>
-<span class="text">Profile</span>
-</a>
-</li>
-<li class="list">
-<a href="#">
-<span class="icon"><ion-icon name="chatbubble-outline"></ion-icon></span>
-<span class="text">Messages</span>
-</a>
-</li>
-<li class="list">
-<a href="#">
-<span class="icon"><ion-icon name="camera-outline"></ion-icon></span>
-<span class="text">Photos</span>
-</a>
-</li>
-<li class="list">
-<a href="#">
-<span class="icon"><ion-icon name="settings-outline"></ion-icon></span>
-<span class="text">Settings</span>
-</a>
-</li>
-</ul>
-</div>
-<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>		   
-<hr />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Pridi:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
     
-   </section>
-   <article id="about">
-          
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Anton&family=Cinzel:wght@400;500;600;700;800;900&family=Pacifico&display=swap" rel="stylesheet">
+    
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Anton&family=Cinzel:wght@400;500;600;700;800;900&family=Pacifico&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Anton&family=Cinzel:wght@400;500;600;700;800;900&family=Pacifico&family=Padauk:wght@400;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
+
+   </head>
+
+   <body>
+   
+    <video playsinline autoplay muted loop poster="polina.jpg" id="bgvid">
+      <source src="video.mp4" type="video/webm">
+      <source src="video.ogg" type="video/mp4">
+   </video>
+    <header class="viewport-header">
+	    <div class="left">
+		<img src="./images/Mathi.png" alt="image"/>
+		<h1>MATHIVANAN PACHIYAPPAN</h1>
+		</div>
+		<nav class="right">
+		  <a href="#">Home</a>
+		  <a href="#">Profile</a>
+		  <a href="#">Carrier</a>
+		  <a href="#">Phone</a>
+		</nav>
+	</header>
+
+  
+   <section class="content">
+   
            <p>I'm P. Mathivanan nike name (<del><i>Mathi</i></del>) born in Puducherry (GH), in 26 March 2002. 
            I'm Completed my schooling from Govt. Higher Secondery School Vazhudavur Villupuram Dist. My School days have an different places, 
            I Think I'm studing more then 3 schools, and my school days life journey is comming below:</p>
-           <img style="float:right;border-radius:90px; margin:1em;" src="images/Mathi.png" alt="image" width="19%" height="35%"/>
-           <h2 class="bgblack2">About  :</h2>
+
+           <h2>About</h2>
 
            <p><strong>School:</strong> I'm start my school journey in the year 2005 in the class of <small>LKG</small> from (<i>Nethaji Nursery and Primary School Vazhudavur Villupuram.</i>) 
            also done <small>UKG</small> in the year of 2007. I'm going to Bangalore because my Dad working there so my family shifted to Kamakodahali Town Banglore. 
@@ -79,7 +63,7 @@
            (<i>Thillaiyadi Valliammai Govt. School</i> (<small>TVGHS</small>), Kathirkamam. Puducherry) and continue 7<sup>th</sup> and 8<sup>th</sup> in the year of  2012-2015. Next I'm would search 
            my High school studies in Tamil Medium in the year 2015-2017 because I'm poor in English, Go to join <i>Govt. Higher Secondery School</i> from My home village Pakkiripalayam
            Vazhudavur. Scored in 10th Public exam <mark>433/500</mark> and <mark>86%</mark>. This is a end of my school day life.</p>
-
+		   
            <p><strong>College:</strong> I loved to studing Engineering Degree like (<b>B.E, B.Tech</b>), but I would change my decision for my family situation
            and help to support my father in less days. My father is a Crane Mechanic, he have health issue so i decided to quickly complete my studies and help him,
            So I choose <b>Diplome in Electronics and Communication Engineering</b> in 3 years program 2017-2020 
@@ -95,28 +79,29 @@
          One day I receive a phone call from my College say to me your selected in campus interview in a core type industry. It's one of leading <small>MNC</small> company
           in Pondicherry the name is <b><a href="https://www.linkedin.com/company/eaton">EATON power quality Pvt.Ltd.</a></b> a leading Fuse Carrier and <i>UPS</i> Production Company in Electrical Sectore. To join an Apprentice
          Trainee and complete my One year Training Program in the year of 2020-2021. Unfortunatly this time I lose my Father.</p>
-      <section>
-         <ul>
-         <li><p>Once the Training period complete I'm going to search my next job but it is very difficult to find a new job. I would visit most of the companies
+    </section>
+	
+	<section class="center">
+         <p>Once the Training period complete I'm going to search my next job but it is very difficult to find a new job. I would visit most of the companies
          in Pondicherry. I don't attend any interview because every companies sequrities are told me they don't hire so give me your resume and leave know.
          It's hurts me, but I don't quit to search a job and contginue to keep searching. Finally I don't get a core related jobs so I'm going to join some other 
          different jobs. My uncle's friend own a <ins>Home Appliences Shop</ins> and he is recomend me to him for <ins>Sales Exicutive</ins>. only 3 days I would go this job
          and I quit it because it's not sacrificed. Then I go to join <ins><a href="https://m.dinakaran.com/category/8867359">Dinakaran press</a></ins> Magezine in Printing and Maintenance it's also doesn't make me sacrifice
          to me and I also quit it. I have no job but I need money then my friend refer me to his working in a <ins>Mosquito Vaporizer Company</ins> nameis <ins><a href="http://vapominerals.com/">VAPO Minerals Pvt.Ltd.</a></ins> in regular night shift
          evening 6pm to morning 6am (12Hrs) I'm so tired and have lot of health issue for night shift. then I quit it. Then I decided to move my carrier in software sectore, search how to start learning about software.
-         </p></li>
-         <li><p>Finalley I'm  going to join a 2<sup>nd</sup> level software service industry in my home town Puducherry they are a leading E-Publishing Service around the 
+         </p>
+         <p>Finalley I'm  going to join a 2<sup>nd</sup> level software service industry in my home town Puducherry they are a leading E-Publishing Service around the 
          world the name is <b><a href="https://in.linkedin.com/company/integra-software-services-pvt-ltd">Integra Software Services Pvt. Ltd.</a></b> ECR Road Puducherry, from Data Coversion Analyst Post in ePUB department in the year 
          2021-2022. They are have 2 months Training program to teach <ins>HTML,CSS,XML,Adobe tools</ins> likes this for ePUB relevent Technologies. Once I complete 
          this program I would select an Employee in this Company.
-        </p></li>
-        <li><p>Know a day I would happy, because my dream job is in my hands together became a Software Trainee in the year (2022) from <b><a href="https://in.linkedin.com/company/freshworks-inc">Freshworks Software Company.</a></b> 
+        </p>
+        <p>Know a day I would happy, because my dream job is in my hands together became a Software Trainee in the year (2022) from <b><a href="https://in.linkedin.com/company/freshworks-inc">Freshworks Software Company.</a></b> 
          I would thank to all good hearted people in 2 years program and I defenetly trust myself to successfully complete this program and eagerly waiting step on together <mark>Day 601</mark>.
-         </p></li>
-         </ul>
-        
-        <h3 class="bgblack2">Dreams :</h3>
-   
+         </p>
+         </section>
+
+        <h2>Dreams</h2>
+       <div class="list">
        <ol>
        <em>
        <li>SaaS Creator or Developer</li>
@@ -124,47 +109,43 @@
        <li>Entrepreneur</li>
        <li>Leader</li>
        </em>
-       </ol>
-	   <div class="bgblack">
+	   </ol>
+	   </div>
+   <section class="footer">
+   
+	   <img src="./images/mvlogo.jpg" alt="image"/>
 	   
-	   <span class="cpy_white"> Copyright © Mathivanan Inc. All Rights Reserved </span>
-	   <div class="navigation">
-<ul>
-<li class="list">
-<a href="#">
-<span class="icon"><ion-icon name="logo-instagram"></ion-icon></span>
-<span class="text">Insta</span>
-</a>
-</li>
-<li class="list">
-<a href="#">
-<span class="icon"><ion-icon name="logo-facebook"></ion-icon></span>
-<span class="text">facebook</span>
-</a>
-</li>
-<li class="list">
-<a href="#">
-<span class="icon"><ion-icon name="logo-github"></ion-icon></span>
-<span class="text">GitHub</span>
-</a>
-</li>
-<li class="list">
-<a href="#">
-<span class="icon"><ion-icon name="logo-whatsapp"></ion-icon></ion-icon></span>
-<span class="text">Whatsapp</span>
-</a>
-</li>
-<li class="list">
-<a href="#">
-<span class="icon"><ion-icon name="logo-youtube"></ion-icon></span>
-<span class="text">YouTube</span>
-</a>
-</li>
-</ul>
-</div>
+	   <p>Copyright © Mathivanan Inc. All Rights Reserved</p>
+	   
+	   <div>
+	   
+	   <a href="#">
+       <span><ion-icon name="logo-instagram"></ion-icon></span>
+       </a>
+	   
+       <a href="#">
+       <span class="icon"><ion-icon name="logo-whatsapp"></ion-icon></span>
+       </a>
+       
+       <a href="#">
+       <span class="icon"><ion-icon name="logo-linkedin"></ion-icon></span>
+       </a>
+       
+       <a href="#">
+       <span class="icon"><ion-icon name="logo-github"></ion-icon></span>
+       </a>
+	   
+	   <a href="#">
+       <span class="icon"><ion-icon name="logo-twitter"></ion-icon></span>
+       </a>
+	   </p>
+	   </div>
+   </section>
+
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 	   </div>
 	   </div>
+   
    </body>
 </html>
