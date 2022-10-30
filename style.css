@@ -7,7 +7,6 @@ body {
 	margin: 0em;
 	background-image: linear-gradient(to bottom right, #525252, black);
 	font-family: sans-serif;
-	position: relative;
 }
 p {
 	color: white;
@@ -24,21 +23,6 @@ header.viewport-header {
 	flex-wrap:wrap;
 	
 }
-a {
-	color: #3b9cc4;
-}
-h2 {
-	text-align: center;
-	background-color: gray;
-	font-family: 'Cinzel';
-	position: relative;
-}
-strong {
-	color: #d22da3;
-	font-family: 'Pacifico';
-	font-size: 140%;
-	position: relative;
-}
 header.viewport-header nav.right a {
  	padding: 15px;
 	color: black;
@@ -47,11 +31,6 @@ header.viewport-header nav.right a {
 	border-radius: 2em;
 	border: 3px solid #1fa8e0;
 	font-weight: bold;
-	margin-left: 1em;
-	position: relative;
-}
-header.viewport-header nav button {
-	padding: 15px;
 	margin-left: 1em;
 	position: relative;
 }
@@ -73,6 +52,46 @@ header div.left img {
 	border: 3px solid #f108f7;
 	position: relative;
 }
+div p.welcome {
+	font-family: 'Acme';
+	font-size: 500%;
+	text-align: center;
+	margin-top: 0.5em;
+	margin-bottom: -3em;
+}
+div p.welcome2 {
+	font-family: 'Acme';
+	font-size: 180%;
+	margin-top: -10em;
+	margin-bottom: 4em;
+	text-align: center;
+}
+div p.audio_cnt {
+	color: white;
+	font-family: 'Pacifico';
+	font-size: 170%;
+	margin-left: 0.8em;
+	position: relative;
+}
+div p.audio_cnt span {
+	color: white;
+	margin-left: 0.5em;
+}
+a {
+	color: #3b9cc4;
+}
+h2 {
+	text-align: center;
+	background-color: gray;
+	font-family: 'Cinzel';
+	position: relative;
+}
+strong {
+	color: #d22da3;
+	font-family: 'Pacifico';
+	font-size: 140%;
+	position: relative;
+}
 section.content p{
 	margin: 1em;
 	text-align: justify;
@@ -82,7 +101,7 @@ section.content p{
 }
 section.center p{
 	font-family: 'Padauk';
-	margin-left: 20em;
+	margin-left:20em;
 	margin-right: 20em;
 	text-align: center;
 	margin-top: 1em;
@@ -132,4 +151,7 @@ video {
   top: 0;
   left: 0;
   opacity: 30%;
+}
+audio {
+	opacity: 40%;
 }
