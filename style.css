@@ -1,30 +1,35 @@
-@import url('https://fonts.googleapies.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
 * {
-	margin:0;
-	padding:0;
+	margin: 0;
+	padding: 0;
 }
+
 body {
 	margin: 0em;
 	background-image: linear-gradient(to bottom right, #525252, black);
 	font-family: sans-serif;
 }
+
 p {
 	color: white;
-	position: relative;
 }
-header.viewport-header {
+
+header.sticky {
 	display: flex;
-	flex-direction:row;
+	flex-direction: row;
 	align-items: center;
-	justify-content:space-between;
+	justify-content: space-between;
 	padding: 1em;
 	background-color: black;
 	border-radius: 15px;
-	flex-wrap:wrap;
-	
+	position: fixed;
+	top: 0;
+	width: 100vw;
+	z-index: 1;
+	box-sizing: border-box;
 }
-header.viewport-header nav.right a {
- 	padding: 15px;
+
+header.sticky nav.right a {
+	padding: 12px;
 	color: black;
 	background-color: white;
 	text-decoration: none;
@@ -32,76 +37,84 @@ header.viewport-header nav.right a {
 	border: 3px solid #1fa8e0;
 	font-weight: bold;
 	margin-left: 1em;
-	position: relative;
+	margin-right: 1em;
 }
 
-header.viewport-header div.left h1{
+header.sticky div.left h1 {
 	font-family: 'Acme';
 	font-size: 150%;
-	display:inline;
+	display: inline;
 	flex-wrap: wrap;
 	color: #fff;
 	position: absolute;
 	margin-top: 0.7em;
 }
+
 header div.left img {
 	width: 60px;
 	height: 60px;
 	border-radius: 2em;
 	margin-right: 10px;
 	border: 3px solid #f108f7;
-	position: relative;
 }
+
 div p.welcome {
 	font-family: 'Acme';
 	font-size: 500%;
 	text-align: center;
-	margin-top: 0.5em;
-	margin-bottom: -3em;
+	position: relative;
 }
+
 div p.welcome2 {
 	font-family: 'Acme';
 	font-size: 180%;
-	margin-top: -10em;
-	margin-bottom: 4em;
 	text-align: center;
+	position: relative;
 }
+
 div p.audio_cnt {
 	color: white;
 	font-family: 'Pacifico';
 	font-size: 170%;
-	margin-left: 0.8em;
 	position: relative;
 }
+
 div p.audio_cnt span {
 	color: white;
-	margin-left: 0.5em;
+	margin-left: 0.3em;
+}
+audio {
+	opacity: 40%;
 }
 a {
 	color: #3b9cc4;
 }
+
 h2 {
 	text-align: center;
 	background-color: gray;
 	font-family: 'Cinzel';
 	position: relative;
 }
+
 strong {
 	color: #d22da3;
 	font-family: 'Pacifico';
 	font-size: 140%;
-	position: relative;
+    position: relative;
 }
-section.content p{
+
+section.content p {
 	margin: 1em;
 	text-align: justify;
 	font-family: 'Raleway';
 	line-height: 150%;
 	position: relative;
 }
-section.center p{
+
+section.center p {
 	font-family: 'Padauk';
-	margin-left:20em;
+	margin-left: 20em;
 	margin-right: 20em;
 	text-align: center;
 	margin-top: 1em;
@@ -109,22 +122,27 @@ section.center p{
 	padding: 2em;
 	border-radius: 2em;
 	border: 2px solid white;
-	position: relative;
+    position: relative;
 }
+
 div.list ol {
 	background-color: black;
 	color: #1fa8e0;
 	font-family: 'Pacifico';
 	text-align: center;
-	position: relative;
+    position: relative;
 }
+
 section.footer {
 	text-align: center;
 	line-height: 150%;
 	font-family: 'Padauk';
 	padding: 1em;
+	background-color: #041b1e;
+	position: relative;
 }
-section.footer p{	
+
+section.footer p {
 	margin-bottom: 1em;
 	position: relative;
 }
@@ -133,25 +151,55 @@ section.footer div a {
 	text-align: center;
 	padding-left: 1em;
 	text-decoration: none;
-    font-size: 130%;	
-}
-section.footer img {
-	width: 90px;
-	height: 50px;
-	margin-left: -6em;
-	border-radius: 150px;
-	float: right;
+	font-size: 130%;
 	position: relative;
 }
-video {
-  object-fit: cover;
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  left: 0;
-  opacity: 30%;
+
+section.footer img {
+	width: 10%;
+	height: 7%;
+	text-align: center;
+	margin-top: -0.5em;
+	padding-left: 0em;
+	text-decoration: none;
+	font-size: 130%;
+	opacity: 100%;
+	position: relative;
 }
-audio {
-	opacity: 40%;
+
+video {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	opacity: 30%;
+}
+
+body#main_home {
+	position: relative;
+}
+
+body#main_home #home {
+	height: 100vh;
+	width: 100vw;
+	background-image: url("./galaxybg.jpg");
+	opacity: 100%;
+}
+
+body#main_home #home div audio {
+	opacity: 10%;
+}
+
+body#main_home #home div {
+	text-align: center;
+}
+
+body#main_home #home div:first-child p:first-child {
+	padding-top: 120px;
+}
+body#main_home #home div:first-child p:nth-child(2){
+	padding-top: 10em;
+	padding-bottom: 2em;
 }
