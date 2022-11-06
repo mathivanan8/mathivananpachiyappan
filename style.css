@@ -39,6 +39,17 @@ header.sticky nav.right a {
 	margin-left: 1em;
 	margin-right: 1em;
 }
+header.sticky nav.right a:hover {
+	padding: 12px;
+	color: white;
+	background-color: #1fa8e0;
+	text-decoration: none;
+	border-radius: 2em;
+	border: 3px solid #fff;
+	font-weight: bold;
+	margin-left: 1em;
+	margin-right: 1em;
+}
 
 header.sticky div.left h1 {
 	font-family: 'Acme';
